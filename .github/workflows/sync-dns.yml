@@ -1,0 +1,56 @@
+name: Sync DNS to Cloudflare
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'zones/**'
+      - 'config.yaml'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run only (no changes applied)'
+        required: false
+        default: 'false'
+
+jobs:
+  sync:
+    name: OctoDNS Sync
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install OctoDNS + Cloudflare provider
+        run: |
+          pip install octodns octodns-cloudflare pyyaml
+
+      - name: Validate zone files
+        run: |
+          octodns-validate --config-file config.yaml
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Dry run (preview changes)
+        run: |
+          octodns-sync --config-file config.yaml
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Apply DNS changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          octodns-sync --config-file config.yaml --doit
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

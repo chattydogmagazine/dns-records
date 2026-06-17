@@ -1,0 +1,34 @@
+# OctoDNS Configuration
+# Syncs all zone YAML files in /zones to Cloudflare.
+# Run: octodns-sync --config-file config.yaml --doit
+# Or trigger via GitHub Actions (auto-runs on push to main).
+
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./zones
+    default_ttl: 300
+    enforce_order: true
+
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_API_TOKEN
+    account_id: env/CLOUDFLARE_ACCOUNT_ID
+    cdn: false
+
+# Define zones here — add a line for each domain you manage.
+# Zone file must exist at zones/{domain}.yaml
+zones:
+  # ushersoft.com.:
+  #   sources:
+  #     - config
+  #   targets:
+  #     - cloudflare
+  # embedglow.com.:
+  #   sources:
+  #     - config
+  #   targets:
+  #     - cloudflare
+  # Add all your domains here following the pattern above.
+  # The DNS Management MCP (mcp5.ushersoft.com) can auto-populate
+  # zone files via the export_zone_to_github tool.

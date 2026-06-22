@@ -1,0 +1,33 @@
+mag.review.dog:
+  A:
+    ttl: 1800
+    values:
+    - 165.22.26.50
+mail._domainkey.review.dog:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXdBHlsXqYXgREToL6AzpfDX2OseD9moiA01GjFKG8mctCriC5h6VASDaYfwyDvKrDFHUYAObquCMxoCJMfp71F4a8HAEscgJdEQ6bN9d6mbzu0WZmOl+jdWs/5Zzv2s5QsUXtxoIUC35wXt+vtsc6SC3bAuNduRx4UhYQzYLABQIDAQAB
+read.review.dog:
+  CNAME:
+    ttl: 1800
+    value: pear7747832.brizy.site.
+review.dog:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+  MX:
+    ttl: 3600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 3600
+    values:
+    - 'yandex-verification: c85a1949068e0642'
+    - v=spf1 redirect=_spf.yandex.net
+www.review.dog:
+  CNAME:
+    ttl: 3600
+    value: review.dog.

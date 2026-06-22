@@ -1,0 +1,36 @@
+groupmanaged.info:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 21600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 1800
+    values:
+    - 'yandex-verification: 90514ff373eb3f1a'
+    - v=spf1 ip4:IP-1 ip4:IP-2 ip4:IP-3 include:_spf.yandex.net ~all
+mail._domainkey.groupmanaged.info:
+  TXT:
+    ttl: 1800
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCld/bHHW6T9KYITTQix2fDg6lOOx6pSkHK4JnDdnT5GYSk5V0gKO210mv5u4u7KfdzowMu3w0se56rPyKP/RCsKsttho+CePUENgZO/M+G1khFY7pYFOeVgvx03hx4bBEn39Elxj4u5RB84Msf2dILAzFBFPZDBvynVlQKHc/QGwIDAQAB
+sendfox.groupmanaged.info:
+  CNAME:
+    ttl: 1800
+    value: u24545254.wl005.sendgrid.net.
+sf._domainkey.groupmanaged.info:
+  CNAME:
+    ttl: 1800
+    value: sf.domainkey.u24545254.wl005.sendgrid.net.
+sf2._domainkey.groupmanaged.info:
+  CNAME:
+    ttl: 1800
+    value: sf2.domainkey.u24545254.wl005.sendgrid.net.
+www.groupmanaged.info:
+  CNAME:
+    ttl: 3600
+    value: quince8973511.brizy.site.

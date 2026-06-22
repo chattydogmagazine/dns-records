@@ -1,0 +1,4 @@
+www.johns.network:
+  CNAME:
+    ttl: 3600
+    value: johns.network.

@@ -1,0 +1,13 @@
+'*.fansguide.site':
+  A:
+    ttl: 1800
+    values:
+    - 34.237.47.210
+_82e14a4f3b4ba162ddab7b1aa72c16cd.fansguide.site:
+  CNAME:
+    ttl: 3600
+    value: 9f7414c815815bfa553ae8af3e6b758e.a7494927a59c6477da9d892de7c4b948.643a72551de39.comodoca.com.
+www.fansguide.site:
+  CNAME:
+    ttl: 3600
+    value: fansguide.site.

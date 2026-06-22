@@ -1,0 +1,13 @@
+interview.coffee:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  TXT:
+    ttl: 3600
+    values:
+    - google-site-verification=N3FnYXkUdtd1jb8Ml3iewfv8o9QByODL5va8RNDo0B4
+www.interview.coffee:
+  CNAME:
+    ttl: 3600
+    value: kiwi9093934.brizy.site.

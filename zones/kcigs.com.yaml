@@ -1,0 +1,4 @@
+www.kcigs.com:
+  CNAME:
+    ttl: 3600
+    value: kcigs.com.

@@ -1,0 +1,4 @@
+www.freelanceunion.club:
+  CNAME:
+    ttl: 3600
+    value: freelanceunion.club.

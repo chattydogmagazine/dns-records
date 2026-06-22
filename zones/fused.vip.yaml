@@ -1,0 +1,14 @@
+fused.vip:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+in.fused.vip:
+  A:
+    ttl: 1800
+    values:
+    - 188.246.224.127
+www.fused.vip:
+  CNAME:
+    ttl: 3600
+    value: blackberry6006675.brizy.site.

@@ -1,0 +1,9 @@
+_dmarc.bestbuytest.com:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;
+www.bestbuytest.com:
+  CNAME:
+    ttl: 3600
+    value: bestbuytest.com.

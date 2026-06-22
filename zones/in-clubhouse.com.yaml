@@ -1,0 +1,4 @@
+www.in-clubhouse.com:
+  CNAME:
+    ttl: 3600
+    value: in-clubhouse.com.

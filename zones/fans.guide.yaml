@@ -1,0 +1,33 @@
+clubhouse.fans.guide:
+  CNAME:
+    ttl: 1800
+    value: nectarine5763685.brizy.site.
+fans.guide:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 1800
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 1800
+    values:
+    - 'yandex-verification: 97491c2a69fdae38'
+    - v=spf1 redirect=_spf.yandex.net
+    - google-site-verification=NAD4KOcZOvTiVITWtnW48-ScFUYc9W1dJGDi7jy5HQE
+mail._domainkey.fans.guide:
+  TXT:
+    ttl: 1800
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdpj11qz0wYt4ZYUxEd5L+MqNST0LO6dBk80XBN8YU5qOPoTQNbCLssm+nOePg3o+MQzb9tiF+bdfawUHOaFu1m61rDq4SvgqR7pEKSwP53934OYhkKzRN4tGE7/DJ0cP9WPC2jG3KYoxCU7kMOQofVc7U50k++Y/xvrWIdbmlvwIDAQAB
+metaverse.fans.guide:
+  CNAME:
+    ttl: 1800
+    value: kiwi8459109.brizy.site.
+www.fans.guide:
+  CNAME:
+    ttl: 3600
+    value: melon5763460.brizy.site.

@@ -1,0 +1,9 @@
+familycarhire.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+www.familycarhire.com:
+  CNAME:
+    ttl: 3600
+    value: apricot3124931.brizy.site.

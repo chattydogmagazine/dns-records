@@ -1,0 +1,16 @@
+sendfox.continuehealthcare.com:
+  CNAME:
+    ttl: 3600
+    value: u25223825.wl076.sendgrid.net.
+sf._domainkey.continuehealthcare.com:
+  CNAME:
+    ttl: 3600
+    value: sf.domainkey.u25223825.wl076.sendgrid.net.
+sf2._domainkey.continuehealthcare.com:
+  CNAME:
+    ttl: 3600
+    value: sf2.domainkey.u25223825.wl076.sendgrid.net.
+www.continuehealthcare.com:
+  CNAME:
+    ttl: 3600
+    value: continuehealthcare.com.

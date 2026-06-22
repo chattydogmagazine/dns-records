@@ -1,0 +1,29 @@
+mail._domainkey.productschool.me:
+  TXT:
+    ttl: 21600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD4KWiPDevf5mwXkM6oNaXjbNaxQbrhp+VUgnC8BMh1tDYf3XCM8yRNyPMPbumYcwgCbudiA6J2iPYNtkJQYnk1t5vDOlQ0LfCl2Yyji8GyrMVxR2gL3weY0lkhqPhsRKKAJEh20tDLqEI9Z0aU17BRDJ5n8xeKoEXqPwRPHr9u3wIDAQAB
+mail.productschool.me:
+  CNAME:
+    ttl: 1800
+    value: domain.mail.yandex.net.
+productschool.me:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 1800
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 1800
+    values:
+    - 'yandex-verification: 258c437dc492ac7a'
+    - v=spf1 redirect=_spf.yandex.net
+    - google-site-verification=HOia0ICP4tSN6TsxJzoevoYvaWCNOxmVVZi3ZSI24YM
+www.productschool.me:
+  CNAME:
+    ttl: 1800
+    value: strawberry1461613.brizy.site.

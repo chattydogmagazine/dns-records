@@ -1,0 +1,108 @@
+go.ushersoft.com:
+  CNAME:
+    ttl: 1800
+    value: custom.poplink.io.
+john._domainkey.ushersoft.com:
+  TXT:
+    ttl: 600
+    values:
+    - v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUFBOzAZIE/XcxgSnmesSfCyE5qbKbsT4VMasflrTvKDzCS4Km1gmMgU0aR9ZPXQ7m1483qXSIrEgE01uLD8THwtRrAEJ4uiOu+Ae8KLDSbsllBAFdynqJDJsWhg8910uMD0PC1k86qtRtTbqIT9wSoqHlWDoAoDE1gbnaP5QtuwIDAQAB
+link.ushersoft.com:
+  A:
+    ttl: 1800
+    values:
+    - 104.248.123.100
+m.ushersoft.com:
+  A:
+    ttl: 3600
+    values:
+    - 165.22.26.50
+mcp1.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp10.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp2.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp3.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp4.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp5.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp6.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp7.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp8.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+mcp9.ushersoft.com:
+  A:
+    ttl: 600
+    values:
+    - 159.65.217.116
+pro._domainkey.ushersoft.com:
+  TXT:
+    ttl: 1800
+    values:
+    - v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZTo2tf4RmBlCW0ZCCCIaB5x+MgwiaoCqKjgEcCghlk2vmnKW9PKfW5da5CKtttRQJjJahDAlBBWZjU8Ld6OMVkwz7rgwv5WjI86vCl7kw7eKFd24PamUgSxUvorRvjuvNwxn5BE6LCTqEPtisuMe+KSP+dgUSEFDIfI1QLJD6JQIDAQAB
+pro.ushersoft.com:
+  A:
+    ttl: 1800
+    values:
+    - 165.22.26.50
+readme.ushersoft.com:
+  A:
+    ttl: 1800
+    values:
+    - 165.227.19.46
+ushersoft.com:
+  A:
+    ttl: 1800
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 1800
+    values:
+    - priority: 50
+      value: mx3.zoho.eu.
+    - priority: 20
+      value: mx2.zoho.eu.
+    - priority: 10
+      value: mx.zoho.eu.
+  TXT:
+    ttl: 1800
+    values:
+    - zoho-verification=zb81437703.zmverify.zoho.eu
+    - v=spf1 include:zoho.eu ~all
+    - google-site-verification=twd8ILY_cG8IB3gubLwO5YDVR1P8I67vvCE9Ii0pTJE
+www.ushersoft.com:
+  CNAME:
+    ttl: 1800
+    value: snakeaa08ec60.brizy.site.

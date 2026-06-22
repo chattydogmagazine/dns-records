@@ -1,0 +1,76 @@
+admin.oogl.co:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+autoconfig.admin.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+autoconfig.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+autodiscover.admin.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+autodiscover.oogl.co:
+  CNAME:
+    ttl: 3600
+    value: oogl.co.
+cpanel.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+ftp.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+mail.oogl.co:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+oogl.co:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+  MX:
+    ttl: 3600
+    values:
+    - priority: 0
+      value: mail.oogl.co.
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+webdisk.admin.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+webdisk.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+webmail.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+whm.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+www.admin.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.
+www.oogl.co:
+  CNAME:
+    ttl: 10800
+    value: oogl.co.

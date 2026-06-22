@@ -1,0 +1,17 @@
+blogdocker.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+info.blogdocker.com:
+  CNAME:
+    ttl: 1800
+    value: warm-shrew-kiuea0ghmamcslk460zas2r4.herokudns.com.
+list.blogdocker.com:
+  CNAME:
+    ttl: 3600
+    value: go.spread.name.
+www.blogdocker.com:
+  CNAME:
+    ttl: 3600
+    value: grapefruit6626701.brizy.site.

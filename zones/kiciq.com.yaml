@@ -1,0 +1,4 @@
+www.kiciq.com:
+  CNAME:
+    ttl: 3600
+    value: kiciq.com.

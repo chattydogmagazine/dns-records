@@ -1,0 +1,4 @@
+www.fansguide.club:
+  CNAME:
+    ttl: 3600
+    value: fansguide.club.

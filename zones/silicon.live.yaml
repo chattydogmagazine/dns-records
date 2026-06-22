@@ -1,0 +1,13 @@
+silicon.live:
+  A:
+    ttl: 1800
+    values:
+    - 34.237.47.210
+  TXT:
+    ttl: 1800
+    values:
+    - google-site-verification=RAlVbn2B8TCA8LD4ER1VXMVcxAU7k6D0qT-q5afEnHM
+www.silicon.live:
+  CNAME:
+    ttl: 1800
+    value: blackcurrant618331.brizy.site.

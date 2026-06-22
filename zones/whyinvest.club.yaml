@@ -1,0 +1,4 @@
+www.whyinvest.club:
+  CNAME:
+    ttl: 3600
+    value: whyinvest.club.

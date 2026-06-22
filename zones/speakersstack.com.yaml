@@ -1,0 +1,9 @@
+speakersstack.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+www.speakersstack.com:
+  CNAME:
+    ttl: 1800
+    value: strawberry3542651.brizy.site.

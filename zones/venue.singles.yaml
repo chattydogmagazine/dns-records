@@ -1,0 +1,9 @@
+venue.singles:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+www.venue.singles:
+  CNAME:
+    ttl: 3600
+    value: lemon3038867.brizy.site.

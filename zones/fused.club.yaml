@@ -1,0 +1,9 @@
+fused.club:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+www.fused.club:
+  CNAME:
+    ttl: 3600
+    value: fig5763687.brizy.site.

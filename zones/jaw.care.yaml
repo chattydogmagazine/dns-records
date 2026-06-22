@@ -1,0 +1,9 @@
+jaw.care:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+www.jaw.care:
+  CNAME:
+    ttl: 3600
+    value: jaw.care.

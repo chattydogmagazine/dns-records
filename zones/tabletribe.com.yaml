@@ -1,0 +1,66 @@
+admin.tabletribe.com:
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+autoconfig.admin.tabletribe.com:
+  CNAME:
+    ttl: 10800
+    value: tabletribe.com.
+autoconfig.tabletribe.com:
+  CNAME:
+    ttl: 10800
+    value: tabletribe.com.
+autodiscover.admin.tabletribe.com:
+  CNAME:
+    ttl: 10800
+    value: tabletribe.com.
+autodiscover.tabletribe.com:
+  CNAME:
+    ttl: 3600
+    value: tabletribe.com.
+dc-aa8e722993._spfm.tabletribe.com:
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 include:_spf.google.com ~all
+ftp.tabletribe.com:
+  CNAME:
+    ttl: 3600
+    value: tabletribe.com.
+read.tabletribe.com:
+  A:
+    ttl: 3600
+    values:
+    - 165.22.26.50
+tabletribe.com:
+  A:
+    ttl: 1800
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 3600
+    values:
+    - priority: 5
+      value: alt2.aspmx.l.google.com.
+    - priority: 5
+      value: alt1.aspmx.l.google.com.
+    - priority: 10
+      value: alt4.aspmx.l.google.com.
+    - priority: 10
+      value: alt3.aspmx.l.google.com.
+    - priority: 1
+      value: aspmx.l.google.com.
+  TXT:
+    ttl: 3600
+    values:
+    - google-site-verification=iZdSJKTACaCGlhBP9mvLwUZ43zkm92i9VFqqbwzyKAs
+testpcm.tabletribe.com:
+  A:
+    ttl: 600
+    values:
+    - 206.189.25.161
+www.tabletribe.com:
+  CNAME:
+    ttl: 3600
+    value: pomegranate3006851.brizy.site.

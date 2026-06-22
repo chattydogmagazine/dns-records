@@ -1,0 +1,83 @@
+admin.softwarereview.guru:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+askthe.softwarereview.guru:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+autoconfig.admin.softwarereview.guru:
+  CNAME:
+    ttl: 3600
+    value: softwarereview.guru.
+autoconfig.softwarereview.guru:
+  CNAME:
+    ttl: 3600
+    value: softwarereview.guru.
+autodiscover.admin.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+autodiscover.softwarereview.guru:
+  CNAME:
+    ttl: 3600
+    value: softwarereview.guru.
+cpanel.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+ftp.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+mail.softwarereview.guru:
+  CNAME:
+    ttl: 3600
+    value: softwarereview.guru.
+platform.softwarereview.guru:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+softwarereview.guru:
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+    - google-site-verification=8rD44qi10GdZQzpAiSyu2KowbzRFAMpB-ysnrFmd-2I
+    - google-site-verification=5LKx1Ema-mGZ274hazuIMp0Hr36IKoyra2BlQLlZ5vg
+the.softwarereview.guru:
+  A:
+    ttl: 10800
+    values:
+    - 160.153.61.66
+webdisk.admin.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+webdisk.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+webmail.softwarereview.guru:
+  CNAME:
+    ttl: 3600
+    value: softwarereview.guru.
+whm.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+www.admin.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.
+www.softwarereview.guru:
+  CNAME:
+    ttl: 10800
+    value: softwarereview.guru.

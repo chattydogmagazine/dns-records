@@ -1,0 +1,4 @@
+www.satds.org:
+  CNAME:
+    ttl: 3600
+    value: satds.org.

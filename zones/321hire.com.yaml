@@ -1,0 +1,24 @@
+321hire.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 21600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 21600
+    values:
+    - 'yandex-verification: 6996cd5e24164788'
+    - v=spf1 redirect=_spf.yandex.net
+mail._domainkey.321hire.com:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8BtEnk+m7yPYWnLuAGqsrfPeSmEJJY+tcrVXIuSXa+opfeuTwOwj7d0OuXOCOHBqriStvE80BzJBKAs6RuggR5+ACxgE5CfpbxCMCiKmDxpFz+boJs4oFhWK0ft8cpojPC98qsmJaw6XvyQpB3xalYktEBSwXzOrPzWMYZhO9NwIDAQAB
+www.321hire.com:
+  CNAME:
+    ttl: 3600
+    value: apple3125062.brizy.site.

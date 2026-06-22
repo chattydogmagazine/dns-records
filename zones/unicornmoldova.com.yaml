@@ -1,0 +1,4 @@
+www.unicornmoldova.com:
+  CNAME:
+    ttl: 3600
+    value: unicornmoldova.com.

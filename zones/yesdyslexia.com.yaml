@@ -1,0 +1,9 @@
+www.yesdyslexia.com:
+  CNAME:
+    ttl: 3600
+    value: mandarin16919368.brizy.site.
+yesdyslexia.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210

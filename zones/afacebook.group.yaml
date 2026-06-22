@@ -1,0 +1,17 @@
+afacebook.group:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+  TXT:
+    ttl: 3600
+    values:
+    - google-site-verification=HP_hMZu3VouV5NIrp3xfdqju4Crx7hBd_rPlLj4Phcc
+promo.afacebook.group:
+  CNAME:
+    ttl: 3600
+    value: custom.poplink.io.
+www.afacebook.group:
+  CNAME:
+    ttl: 3600
+    value: afacebook.group.

@@ -1,0 +1,43 @@
+app.podcastplayer.club:
+  A:
+    ttl: 1800
+    values:
+    - 66.147.237.41
+em5336.podcastplayer.club:
+  CNAME:
+    ttl: 3600
+    value: u107493026.wl027.sendgrid.net.
+mail._domainkey.podcastplayer.club:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMRPzu19VO6lqblfvLyLQkWGFPKQqecTwItAaTSrWfXg2+1yLCjt7DtAuPdWlU7QvRuhGlzUE1GAlk0KSWQorfBm+6sqyZiGSTGxEIpR4ztUi9pGuAeiyqXu50UtW2dF1BAWoJwb2TFMajx3+0NchYs1ujSsi2xRxMNck2nQ9a6wIDAQAB
+podcastplayer.club:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 3600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 3600
+    values:
+    - 'yandex-verification: 67fcf2b30b8ddb63'
+    - v=spf1 redirect=_spf.yandex.net
+    - v=spf1 +a +mx ip4:66.147.237.89 include:sendgrid.net ~all
+    - google-site-verification=nlusnr4MxNKHUJYZbx1D3hq9QrK252j1FPo_5i7q36w
+sg._domainkey.podcastplayer.club:
+  CNAME:
+    ttl: 3600
+    value: sg.domainkey.u107493026.wl027.sendgrid.net.
+sg2._domainkey.podcastplayer.club:
+  CNAME:
+    ttl: 3600
+    value: sg2.domainkey.u107493026.wl027.sendgrid.net.
+www.podcastplayer.club:
+  CNAME:
+    ttl: 3600
+    value: ratzmqwmkuvvkhd.directoryup.com.

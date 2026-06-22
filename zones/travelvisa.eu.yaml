@@ -1,0 +1,47 @@
+admin.travelvisa.eu:
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+autoconfig.admin.travelvisa.eu:
+  CNAME:
+    ttl: 10800
+    value: travelvisa.eu.
+autoconfig.travelvisa.eu:
+  CNAME:
+    ttl: 10800
+    value: travelvisa.eu.
+autodiscover.admin.travelvisa.eu:
+  CNAME:
+    ttl: 10800
+    value: travelvisa.eu.
+autodiscover.travelvisa.eu:
+  CNAME:
+    ttl: 3600
+    value: travelvisa.eu.
+ftp.travelvisa.eu:
+  CNAME:
+    ttl: 10800
+    value: travelvisa.eu.
+travelvisa.eu:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 3600
+    values:
+    - priority: 0
+      value: mail.travelvisa.eu.
+  TXT:
+    ttl: 3600
+    values:
+    - v=spf1 a mx ptr include:secureserver.net ~all
+webmail.travelvisa.eu:
+  CNAME:
+    ttl: 10800
+    value: travelvisa.eu.
+www.travelvisa.eu:
+  CNAME:
+    ttl: 3600
+    value: lemon5259733.brizy.site.

@@ -1,0 +1,55 @@
+by.eventsstack.com:
+  A:
+    ttl: 1800
+    values:
+    - 142.93.172.24
+eventsstack.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 3600
+    values:
+    - priority: 5
+      value: alt2.aspmx.l.google.com.
+    - priority: 5
+      value: alt1.aspmx.l.google.com.
+    - priority: 10
+      value: alt4.aspmx.l.google.com.
+    - priority: 10
+      value: alt3.aspmx.l.google.com.
+    - priority: 1
+      value: aspmx.l.google.com.
+  TXT:
+    ttl: 1800
+    values:
+    - v=spf1 include:_spf.google.com ~all
+    - v=DMARC1; p=Quarantine;pct=100;rua=mailto:postmaster@eventsstack.com
+    - google-site-verification=u3zEf2W4z7qDLIAS0ArTfrMuBDuFj79sk2iu2RerLTI
+go.eventsstack.com:
+  A:
+    ttl: 1800
+    values:
+    - 65.52.146.52
+google._domainkey.eventsstack.com:
+  TXT:
+    ttl: 1800
+    values:
+    - v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqVfFtWD+iLgI+8WTwhdp7wsfiAOEOfnqFdB3fwBzZJct0okZZWJNvw0p+2DS2hujkmrYwboYaRl5iSOYNkfS5dSyQH9xQkbKQzOtFqe2aW1hplkVf+XhdffvB8v91EQw8Ro8pkENi/8ZCgRIjaZ7i+aSqHAZvYe8TNpATOneMIomgYdfjHWp1Ak9s3mVrO8z1683rQbWHq1fUJs/zvkIpIqWGktEocNETHPUMRvffu5mAHcMicSnEkHvm4IqKJnS/WSScZ9FACnOPJoGSp841ZyQjx+wmQpRk+dWXXE27+RHO4783v2D8+tJnpg4eLNsjuEdE3lm6i54t0HZ1/5T9QIDAQAB
+hoonbxt5pagn.mail.eventsstack.com:
+  CNAME:
+    ttl: 1800
+    value: gv-2mizcghabpdpun.dv.googlehosted.com.
+on.eventsstack.com:
+  CNAME:
+    ttl: 1800
+    value: dns.pory.app.
+www.eventsstack.com:
+  CNAME:
+    ttl: 3600
+    value: papaya3006827.brizy.site.
+www.on.eventsstack.com:
+  CNAME:
+    ttl: 1800
+    value: dns.pory.app.

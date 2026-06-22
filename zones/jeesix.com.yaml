@@ -1,0 +1,4 @@
+www.jeesix.com:
+  CNAME:
+    ttl: 3600
+    value: jeesix.com.

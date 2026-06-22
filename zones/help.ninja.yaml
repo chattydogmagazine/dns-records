@@ -1,0 +1,20 @@
+help.ninja:
+  MX:
+    ttl: 3600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 3600
+    values:
+    - 'yandex-verification: 22b45f8083c41357'
+    - v=spf1 redirect=_spf.yandex.net
+mail._domainkey.help.ninja:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxWgfedkvRCLauBwdeKt+b1bJvOmFAxev67JCFLYvyOujCk2lA2XKtzr9Y7kR7oskEXdjWdQpALDkkUZ8ETCmdpE/VSvjijvUXG3sg6rY9gsy0SkTixKbPkNZhvpHl2AkwWIL+q+MSPtTtcwaL1IqvpmYPTVzwFE5w+Byv++tD8QIDAQAB
+www.help.ninja:
+  CNAME:
+    ttl: 3600
+    value: help.ninja.

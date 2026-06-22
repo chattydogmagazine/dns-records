@@ -1,0 +1,18 @@
+embedglow.com:
+  MX:
+    ttl: 1800
+    values:
+    - priority: 20
+      value: eforward5.registrar-servers.com.
+    - priority: 15
+      value: eforward4.registrar-servers.com.
+    - priority: 10
+      value: eforward3.registrar-servers.com.
+    - priority: 10
+      value: eforward2.registrar-servers.com.
+    - priority: 10
+      value: eforward1.registrar-servers.com.
+  TXT:
+    ttl: 1800
+    values:
+    - v=spf1 include:spf.efwd.registrar-servers.com ~all

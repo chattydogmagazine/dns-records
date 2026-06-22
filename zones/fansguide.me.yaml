@@ -1,0 +1,35 @@
+4fykt4gvjueuhpy6e4gesuinp7dx4ogt._domainkey.fansguide.me:
+  CNAME:
+    ttl: 1800
+    value: 4fykt4gvjueuhpy6e4gesuinp7dx4ogt.dkim.amazonses.com.
+4ykmtbsbqv4qa3fi5sdfecrzl24thgw6._domainkey.fansguide.me:
+  CNAME:
+    ttl: 1800
+    value: 4ykmtbsbqv4qa3fi5sdfecrzl24thgw6.dkim.amazonses.com.
+_978d808363cc92c069c48a0bd6a45a39.dev.fansguide.me:
+  CNAME:
+    ttl: 1800
+    value: 83df71dfe0280e94b0640fe4d1077cdf.9b2b9889f6e05dc89849c6954c9516a5.643a7259b000e.comodoca.com.
+dev.fansguide.me:
+  A:
+    ttl: 1800
+    values:
+    - 3.95.91.48
+mail.fansguide.me:
+  MX:
+    ttl: 1800
+    values:
+    - priority: 10
+      value: feedback-smtp.us-east-1.amazonses.com.
+  TXT:
+    ttl: 1800
+    values:
+    - v=spf1 include:amazonses.com ~all
+www.fansguide.me:
+  CNAME:
+    ttl: 3600
+    value: fansguide.me.
+yunh2ebemovkizswm5snsbbguvojolc5._domainkey.fansguide.me:
+  CNAME:
+    ttl: 1800
+    value: yunh2ebemovkizswm5snsbbguvojolc5.dkim.amazonses.com.

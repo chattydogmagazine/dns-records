@@ -1,0 +1,9 @@
+saachi.live:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+www.saachi.live:
+  CNAME:
+    ttl: 3600
+    value: banana4289666.brizy.site.

@@ -1,0 +1,37 @@
+_43f2553a1abd5d27d8e29617aa94cae5.app.groupmanaged.com:
+  CNAME:
+    ttl: 3600
+    value: _f1987927cd5144b674839e4c4c002607.bcsdcprczz.acm-validations.aws.
+app.groupmanaged.com:
+  CNAME:
+    ttl: 1800
+    value: d1sc8umu4306c6.cloudfront.net.
+feedback.groupmanaged.com:
+  CNAME:
+    ttl: 3600
+    value: round-finch-ux7pokso8ze3lmuy4f7rzgsp.herokudns.com.
+groupmanaged.com:
+  A:
+    ttl: 600
+    values:
+    - 34.237.47.210
+  MX:
+    ttl: 3600
+    values:
+    - priority: 10
+      value: mx.yandex.net.
+  TXT:
+    ttl: 3600
+    values:
+    - 'yandex-verification: be33fbcd8e2d44b2'
+    - v=spf1 redirect=_spf.yandex.net
+    - google-site-verification=Ps4zKUl5rcvf7C74T0pw-A9TUYXo6OFYUoaoLtNHPZE
+mail._domainkey.groupmanaged.com:
+  TXT:
+    ttl: 3600
+    values:
+    - v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuZN6ITGiIE7iS+R8Sufk4SC6WvUNNRXw/OZeL2sTXWu3ERIk8WjH5eNlwZOvNj3ISkHoXEhNlKOFgSPSp8UK9GSt1yg4I+W8fIaM6k9mf8HXC84/ojRzxbv2ZCCncJxuLL3mLHVgUSF0bu7wJEJNPUtTUNb2Jwze2+RYgBA9YOQIDAQAB
+www.groupmanaged.com:
+  CNAME:
+    ttl: 3600
+    value: nectarine4497879.brizy.site.

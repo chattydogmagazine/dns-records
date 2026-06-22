@@ -1,0 +1,45 @@
+admin.deep-reach.com:
+  MX:
+    ttl: 1800
+    values:
+    - priority: 10
+      value: mxb.eu.mailgun.org.
+    - priority: 10
+      value: mxa.eu.mailgun.org.
+  TXT:
+    ttl: 1800
+    values:
+    - v=spf1 include:eu.mailgun.org ~all
+deep-reach.com:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+  TXT:
+    ttl: 3600
+    values:
+    - google-site-verification=Pzj1HnX0TuvD1JvtE5mwwn5g42SSIeiyupHqecAYp5k
+email.admin.deep-reach.com:
+  CNAME:
+    ttl: 1800
+    value: eu.mailgun.org.
+link.deep-reach.com:
+  A:
+    ttl: 600
+    values:
+    - 160.153.61.66
+smtp._domainkey.admin.deep-reach.com:
+  TXT:
+    ttl: 600
+    values:
+    - k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkfpsEFCDHRv56fAo2wcZ0doas8W14dF9InKVtgpgQqdsieOpVXKljE0wKRYNLijvrlALHYKpLadw1CCR9FDrTWuntyMFgr5O0/DrdVgKTgZC1RAe0dgMENwENOJVPsXZpik3Oq3fhausrpYGlErJLYbNoyIYd1WkturJlRKRdBwIDAQAB
+via.deep-reach.com:
+  A:
+    ttl: 600
+    values:
+    - 3.33.152.147
+    - 15.197.142.173
+www.deep-reach.com:
+  CNAME:
+    ttl: 3600
+    value: deep-reach.com.
